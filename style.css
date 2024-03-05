@@ -7,10 +7,10 @@ h1 ul {
 
 }
 
-nav {
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
     font-family: 'Lexend', sans-serif;
     background-color: white;
-    padding: 20px 80px;
+    padding: 20px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,6 +19,41 @@ nav {
     align-content: stretch;
 }
 
+.collapse.navbar-collapse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+    align-content: center;
+}
+
+button.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: #EA356C;
+    background-color: #EA356C;
+    border: #EA356C solid;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+
+button.btn-outline-success {
+    --bs-btn-color: #3442DA;
+    --bs-btn-border-color: #3442DA;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #3442DA;
+    --bs-btn-hover-border-color: #3442DA;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #3442DA;
+    --bs-btn-active-border-color: #3442DA;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #3442DA;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #3442DA;
+}   
 a {
     padding: 5px;
 }
