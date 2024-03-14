@@ -52,7 +52,7 @@ button.btn-outline-success {
     --bs-btn-hover-bg: #3442DA;
     --bs-btn-hover-border-color: #3442DA;
     --bs-btn-focus-shadow-rgb: 25, 135, 84;
-    --bs-btn-active-color: #fff;
+    --bs-btn-active-color: #ffffff;
     --bs-btn-active-bg: #3442DA;
     --bs-btn-active-border-color: #3442DA;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -145,6 +145,8 @@ div.novedades-cards {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+
+    
 }
 
 div.card {
@@ -249,10 +251,6 @@ div.catalogo-listado {
     align-items: stretch;
 }
 
-.catalogo-fotos {
-    display: flex;
-    flex-flow: row wrap;
-}
 
 section.infolibro {
     padding: 10px 100px;
@@ -314,6 +312,8 @@ div.ingresar {
     flex-wrap: wrap;
     align-items: center;
 }
+
+
 
 footer {
     background-color: #232323;
