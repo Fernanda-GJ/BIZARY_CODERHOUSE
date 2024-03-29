@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Libros, Comprar libros online, Fantasía, Ciencia Ficción, Libro en Argentina, Harry Potter, El Señor de los Anillos, Dune">
 
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,14 +13,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 
 <body>
     <header>
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="img/Bizary Logo nav.png" alt="Logo Bizary"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,30 +33,25 @@
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                     <ul class="navbar-nav">
-                        <li class="nav-item-catalogo">
-                            <a href="catalogo.html">Catálogo</a>
+                        <li class="nav-item">
+                            <a href="./catalogo/catalogo.html">Catálogo</a>
                         </li>
-                        <li class="nav-item-novedades">
-                            <a href="catalogo.html">Novedades</a>
-                        </li>
-                        <li class="nav-item-ofertas">
-                            <a href="catalogo.html">Ofertas</a>
-                        </li>
-                        <li class="nav-item-ayuda">
-                            <a href="">Ayuda</a>
+                        <li class="nav-item">
+                            <a href="./ayuda/ayuda.html">Ayuda</a>
                         </li>
                     </ul> 
                     <div class="carrito-usuario">
-                        <a href="carrito.html">
-                            <img src="img/carrito icon.png" alt="carrito icono">
-                        </a>
-                        <a href="registro-ingreso.html">
+                        <a href="./registro-ingreso/registro-ingreso.html">
                             <img src="img/user icon.png" alt="usuario icono">
+                        </a>
+                        <a href="">
+                            <img src="img/carrito icon.png" alt="carrito icono">
                         </a>
                     </div>
                 </div>
             </div>
         </nav>
+    
     </header>
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="ride">
@@ -81,7 +80,7 @@
         <h1>Novedades</h1>
         <div class="novedades-cards">
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/medialuna.png" class="card-img-top" alt="Portada Ciudad Medialuna">
                 </a>
                 <div class="card-body">
@@ -90,7 +89,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/rueda.png" class="card-img-top" alt="Portada La Rueda del Tiempo - El Ojo del Mundo">
                 </a>
                 <div class="card-body">
@@ -99,7 +98,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/dune.png" class="card-img-top" alt="Portada Dune">
                 </a>
                 <div class="card-body">
@@ -108,7 +107,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/viento.png" class="card-img-top" alt="Portada El Nombre del Viento">
                 </a>
                 <div class="card-body">
@@ -117,7 +116,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/fuego.png" class="card-img-top" alt="Portada Fuego y Sangre">
                 </a>
                 <div class="card-body">
@@ -131,19 +130,19 @@
     <section class="ayuda">
             <div class="div-ayuda">
                 <img src="img/comprar.png" alt="¿Cómo comprar?">
-                <h4><a href="">¿Cómo comprar?</a></h4>
+                <h4><a href="../ayuda/ayuda.html">¿Cómo comprar?</a></h4>
             </div>
             <div class="div-ayuda">
                 <img src="img/envio.png" alt="Envios">
-                <h4><a href="">Envios</a></h4>
+                <h4><a href="../ayuda/ayuda.html">Envios</a></h4>
             </div>
             <div class="div-ayuda">
                 <img src="img/medio pago.png" alt="Medios de Pago">
-                <h4><a href="">Medios de Pago</a></h4>
+                <h4><a href="../ayuda/ayuda.html">Medios de Pago</a></h4>
             </div>
             <div class="div-ayuda">
                 <img src="img/comprar.png" alt="Promociones Bancarias">
-                <h4><a href="">Promociones Bancarias</a></h4>
+                <h4><a href="../ayuda/ayuda.html">Promociones Bancarias</a></h4>
             </div>
     </section>
 
@@ -151,7 +150,7 @@
         <h1>Ofertas</h1>
         <div class="novedades-cards">
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/cora.png" class="card-img-top" alt="Portada Coraline">
                 </a>
                 <div class="card-body">
@@ -161,7 +160,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/magnus.png" class="card-img-top" alt="Portada Magnus Chase">
                 </a>
                 <div class="card-body">
@@ -171,7 +170,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/venado.png" class="card-img-top" alt="Portada Los Días del Venado">
                 </a>
                 <div class="card-body">
@@ -181,7 +180,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/potter.png" class="card-img-top" alt="Portada Harry Potter 1">
                 </a>
                 <div class="card-body">
@@ -191,7 +190,7 @@
                 </div>
             </div>
             <div class="card" style="width: 10rem;">
-                <a href="vista-libro.html">
+                <a href="./vista-libro/vista-libro.html">
                     <img src="img/aliento.png" class="card-img-top" alt="Portada El Aliento de los Dioses">
                 </a>
                 <div class="card-body">
@@ -223,8 +222,7 @@
             </div>
             <div class="footer-item">
                 <h5>Contactanos</h5>
-                <p>Lorem ipsum dolor
-                    <br>
+                <p>
                     011 7890 - 5432
                     <br>
                     bizarystore@gmail.com

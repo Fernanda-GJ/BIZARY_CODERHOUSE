@@ -1,0 +1,106 @@
+/* Variables */
+$black: #232323;
+$blue: #3442DA;
+$pink: #EA356C;
+$white: #ffffff; 
+$grey: #e1e1e1;
+
+* {
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5 rem;
+    padding: 10px 80px;
+
+    p {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    a {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
+
+h3 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+div.separador-grey {
+    padding: 5px;
+    background-color: $grey;
+}
+
+section.novedades {
+    padding: 50px 80px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    div.novedades-cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+
+        div.card {
+            margin: 5px;
+        }
+
+        div.card:hover {
+            border-color: $blue;
+        }
+
+        p.card-text {
+            color: $pink;
+            font-size: 1.3rem;
+        }
+        
+        p.card-text-2 {
+            text-decoration:line-through;
+            margin-top: 0;
+            margin-bottom: 0rem;
+        }
+
+        h5.card-title {
+            font-size: 1rem;
+        }
+
+        div.card-body {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}

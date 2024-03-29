@@ -1,0 +1,21 @@
+footer {
+    background-color: $black;
+    color: $white;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    div.footer-logo {
+        padding-bottom: 20px;
+    }
+
+    div.footer-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.footer-item{
+        padding: 0px 20px;
+    }
+}
